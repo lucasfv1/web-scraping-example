@@ -31,8 +31,7 @@ for linha in todas_as_linhas[1:]:
     # Verificar se a linha possui cinco colunas
     if len(colunas) == 5:
         # Atualizar o valor de ultimo_ano se existirem cinco colunas
-        if colunas[0].text.strip():
-            ultimo_ano = colunas[0].text.strip()
+        ultimo_ano = colunas[0].text.strip()
 
         # Criar o dicionário para cada filme quando a quantidade de colunas for igual a cinco
         filme = {
